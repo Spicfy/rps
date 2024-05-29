@@ -3,6 +3,19 @@
    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="rps.js"></script>
+   <link rel="stylesheet" href="styles.css">
    </head>
+   <body>
+      <h1>Rock - Paper - Scissors</h1>
+      <div class="choices">
+         <button onclick = "playGame('r')">Rock</button>
+         <button onclick = "playGame('p')">Paper</button>
+         <button onclick = "playGame('s')">Scissors</button>
+      </div>
+      <div id="playerDisplay">Player: </div>
+      <div id="computerDisplay">Computer: </div>
+      <div id="resultDisplay"></div>
+      <div id="winner"></div>
+      <script src="rps.js"></script>   
+   </body>
 </html>
